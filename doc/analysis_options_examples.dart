@@ -2,6 +2,15 @@
 library pedantic_pschiffmann.doc.analysis_options_examples;
 
 //
+// analyzer.strong-mode.implicit-dynamic
+//
+
+class StrongModeImplicitDynamic {
+  void f(Map<String, dynamic> p) {}
+  void g() => f({'k': 'v'});
+}
+
+//
 // avoid_annotating_with_dynamic
 //
 

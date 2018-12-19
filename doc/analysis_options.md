@@ -1,5 +1,11 @@
 # analysis_options.yaml
 
+## strong mode
+
+### implicit-dynamic
+
+Enabling this option means that one has to explicitly specify collection literals as `dynamic` even if it is immediately passed to a function that expects a dynamic collection parameter.
+
 ## lint rules
 
 ### always_put_control_body_on_new_line

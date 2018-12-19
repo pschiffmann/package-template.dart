@@ -2,7 +2,7 @@ analyzer:
   # https://www.dartlang.org/guides/language/analysis-options#enabling-additional-type-checks
   strong-mode:
     implicit-casts: false
-    implicit-dynamic: false
+    implicit-dynamic: true
 
 # Copied from http://dart-lang.github.io/linter/lints/options/options.html
 # on 2018-12-12, Dart v2.1.0.
