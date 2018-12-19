@@ -8,11 +8,20 @@ library pedantic_pschiffmann.doc.analysis_options_examples;
 dynamic avoidAnnotatingWithDynamic(dynamic x) => x;
 
 //
+// avoid_returning_null_for_void
+//
+
+class AvoidReturningNullForVoid {
+  String s;
+  void clearS() => s = null;
+}
+
+//
 // literal_only_boolean_expressions
 //
 
 void literalOnlyBooleanExpressions() {
-  while(true) {
+  while (true) {
     break;
   }
 }

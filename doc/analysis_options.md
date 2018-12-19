@@ -28,6 +28,10 @@ Not enforced until Angular change detection handles invariant getters.
 
 https://github.com/dart-lang/angular/blob/master/doc/effective/change-detection.md#do-use-final-fields-where-possible
 
+### avoid_returning_null_for_void
+
+Lints `void f() => m = null;`.
+
 ### literal_only_boolean_expressions
 
 This lint is triggered by `while (true) { ... }`, which is legitimate in certain situations.
