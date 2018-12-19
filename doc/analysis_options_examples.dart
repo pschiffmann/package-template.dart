@@ -34,3 +34,9 @@ class SortConstructorsFirst {
   static void f() {}
   SortConstructorsFirst();
 }
+
+//
+// type_annotate_public_apis
+//
+
+const typeAnnotatePublicApis = 'type_annotate_public_apis';
