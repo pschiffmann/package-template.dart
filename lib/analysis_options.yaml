@@ -3,6 +3,8 @@ analyzer:
   strong-mode:
     implicit-casts: false
     implicit-dynamic: true
+  errors:
+    uri_has_not_been_generated: ignore
 
 # Copied from http://dart-lang.github.io/linter/lints/options/options.html
 # on 2018-12-12, Dart v2.1.0.

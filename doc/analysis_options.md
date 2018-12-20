@@ -6,6 +6,14 @@
 
 Enabling this option means that one has to explicitly specify collection literals as `dynamic` even if it is immediately passed to a function that expects a dynamic collection parameter.
 
+## errors
+
+### uri_has_not_been_generated
+
+Angular requires you to import generated files that are generated to [cache](https://github.com/dart-lang/build/blob/master/docs/build_yaml_format.md#buildto):
+
+https://webdev.dartlang.org/angular/tutorial/toh-pt5
+
 ## lint rules
 
 ### always_put_control_body_on_new_line
