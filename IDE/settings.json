@@ -1,0 +1,40 @@
+{
+  "workbench.colorTheme": "Visual Studio Light",
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.statusBar.feedback.visible": false,
+  "editor.minimap.enabled": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "git.confirmSync": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.scrollBeyondLastLine": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.rulers": [
+    80
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 2,
+  "window.zoomLevel": 0,
+  "dart.closingLabels": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 18,
+  "dart.showTodos": false,
+  "editor.renderControlCharacters": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "outline.icons": false,
+  "debug.toolBarLocation": "docked",
+  // "dart.vmAdditionalArgs": [
+  //   "--enable-asserts"
+  // ],
+  "html.format.wrapLineLength": 80,
+  "html.format.wrapAttributes": "force-aligned",
+  "editor.detectIndentation": false,
+  "html.format.endWithNewline": true,
+  "workbench.startupEditor": "newUntitledFile",
+  //"editor.codeLens": false
+}
