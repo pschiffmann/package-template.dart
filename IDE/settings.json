@@ -1,40 +1,52 @@
 {
-  "workbench.colorTheme": "Visual Studio Light",
-  "editor.formatOnSave": true,
-  "workbench.iconTheme": "vs-minimal",
-  "workbench.statusBar.feedback.visible": false,
-  "editor.minimap.enabled": false,
-  "workbench.settings.enableNaturalLanguageSearch": false,
-  "git.confirmSync": false,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "editor.scrollBeyondLastLine": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.rulers": [
-    80
-  ],
-  "explorer.confirmDragAndDrop": false,
-  "editor.tabSize": 2,
-  "window.zoomLevel": 0,
+  /*
+   * user settings – disable clutter
+   */
   "dart.closingLabels": false,
+  "dart.showTodos": false,
+  "editor.minimap.enabled": false,
+  // Disables action buttons that are shown as inline links in the source code:
+  // "editor.codeLens": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.enabled": false,
+  "outline.icons": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.statusBar.feedback.visible": false,
+  /*
+   * user settings – theme
+   */
+  "debug.toolBarLocation": "docked",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
   "editor.lineHeight": 18,
-  "dart.showTodos": false,
   "editor.renderControlCharacters": true,
+  "editor.scrollBeyondLastLine": false,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.startupEditor": "newUntitledFile",
+  /*
+   * workspace settings
+   */
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
-  "outline.icons": false,
-  "debug.toolBarLocation": "docked",
-  // "dart.vmAdditionalArgs": [
-  //   "--enable-asserts"
-  // ],
+  "editor.detectIndentation": false,
+  // note: save without formatting with "save without formatting" keyboard
+  // shortcut `workbench.action.files.saveWithoutFormatting`
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.trimFinalNewlines": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
   "html.format.wrapLineLength": 80,
   "html.format.wrapAttributes": "force-aligned",
-  "editor.detectIndentation": false,
   "html.format.endWithNewline": true,
-  "workbench.startupEditor": "newUntitledFile",
-  //"editor.codeLens": false
 }

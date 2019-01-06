@@ -1,0 +1,22 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.detectIndentation": false,
+  // note: save without formatting with "save without formatting" keyboard
+  // shortcut `workbench.action.files.saveWithoutFormatting`
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.trimFinalNewlines": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "html.format.wrapLineLength": 80,
+  "html.format.wrapAttributes": "force-aligned",
+  "html.format.endWithNewline": true,
+}
