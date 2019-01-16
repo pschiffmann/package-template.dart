@@ -8,7 +8,6 @@
   // Disables action buttons that are shown as inline links in the source code:
   // "editor.codeLens": false,
   "explorer.confirmDragAndDrop": false,
-  "git.enabled": false,
   "outline.icons": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.statusBar.feedback.visible": false,
@@ -25,7 +24,6 @@
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Visual Studio Light",
   "workbench.iconTheme": "vs-minimal",
-  "workbench.startupEditor": "newUntitledFile",
   /*
    * workspace settings
    */
