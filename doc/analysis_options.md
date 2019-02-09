@@ -36,6 +36,11 @@ These cases must be handled with additional care because the analyzer can only p
 https://github.com/dart-lang/pedantic#unused-lints
 > `avoid_as` does not reflect standard usage.
 
+### avoid_catches_without_on_clauses
+
+Catching _anything_ can be useful to restore a partially modified object back to a defined state.
+Then, the caught object can be `rethrow`n.
+
 ### avoid_field_initializers_in_const_classes
 
 Not enforced until Angular change detection handles invariant getters.
@@ -51,6 +56,10 @@ Lints `void f() => m = null;`.
 This lint is triggered by `while (true) { ... }`, which is legitimate in certain situations.
 Except for that line, I personally have never seen it.
 
+### one_member_abstracts
+
+Lints classes that are intended as actual interfaces.
+
 ### parameter_assignments
 
 I believe reusing a parameter as a read/write variable is a legitimate use.
@@ -59,6 +68,15 @@ Instead, there should be a lint `prefer_final_parameters` ...
 ### prefer_bool_in_asserts
 
 Deprecated.
+
+### prefer_const_declarations
+
+Now that Dart has optional `new`/`const`, declaring a variable as `const` implicitly calls the const constructor.
+But using const is discouraged for local variables, because their allocation slows down the startup time, and they never get freed.
+
+### prefer_interpolation_to_compose_strings
+
+Unreadable for long method chains or ternary operators.
 
 ### public_member_api_docs
 
