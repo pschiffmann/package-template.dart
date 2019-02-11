@@ -78,6 +78,10 @@ But using const is discouraged for local variables, because their allocation slo
 
 Unreadable for long method chains or ternary operators.
 
+### prefer_mixin
+
+Lints class declarations from dependency packages.
+
 ### public_member_api_docs
 
 Certain public members are self-explanatory (think of `class Person { String email; }`).
