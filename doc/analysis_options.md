@@ -69,7 +69,9 @@ Instead, there should be a lint `prefer_final_parameters` ...
 
 Deprecated.
 
+### prefer_const_constructors
 ### prefer_const_declarations
+### prefer_const_literals_to_create_immutables
 
 Now that Dart has optional `new`/`const`, declaring a variable as `const` implicitly calls the const constructor.
 But using const is discouraged for local variables, because their allocation slows down the startup time, and they never get freed.
