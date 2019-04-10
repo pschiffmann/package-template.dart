@@ -94,6 +94,10 @@ Whether documentation is required should be decided during a code review.
 I like to keep `static` fields and methods separated from the remaining code of a class, and I find the constructor makes for a good separator between the two.
 However, this lint complains if a static member appears before the constructor.
 
+### super_goes_last
+
+Deprecated.
+
 ### type_annotate_public_apis
 
 Lints `final n = 42;`, but type inference makes an explicit type annotation redundant.
